@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  drawio:
+    image: jgraph/drawio
+    environment:
+      - TZ=Asia/Seoul
+    ports:
+      - '8080:8080'
+      - '8443:8443'
+
